@@ -1,0 +1,431 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+.universal{
+    padding: 0 7%;
+   
+}
+.fa-facebook{
+    color: #3B5998;
+}
+.fa-instagram{
+    color: #E1306C;
+}
+.fa-linkedin{
+    color: #0077b5;
+}
+.fa-twitter{
+    color: #00acee;
+}
+/* overflow auto hum parent class par use karenge or child pe float-left or float-right likenge */
+
+#topbar{
+    background-color: #636e72;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    overflow: auto;
+}
+#tollfree{
+    float: left;
+    color: #fff;
+    margin: 0;
+    margin-top: 8px;
+}
+#social-icon{
+    float: right;
+}
+
+.fab{
+    background-color: rgb(253, 251, 251);
+    padding: 7px;
+    border-radius: 50%;
+}
+
+/* agar social icon round nhi hua ho to ye padding lga skte hai */
+.fa-instagram{
+    padding: 7px 8px;
+}
+.fa-linkedin{
+    padding: 7px 8px;
+}
+/* #logobar{
+    border: 1px solid black;
+} */
+
+/* es {logo} ko  bnane me main role es display property ka hai  kyuli heading block porperty hai or ese style karne ke liye inline banana pdega */
+#logobar h3{
+    background: #0984e3;
+    padding: 3px 25px;
+    display: inline-block;
+    color: white;
+    margin: 18px 0;
+    font-size: 25px;
+    border-radius: 3px;
+}
+#menubar{
+ background-color: #0984e3; 
+}
+#menubar ul li{
+    display: inline-block;  
+    padding: 18px 0;
+    font-size: 25px;
+    font-weight: bold;
+    padding-right: 45px;
+}
+#menubar ul li a{
+    color: #fff;
+    text-decoration: none;
+    transition: all 0.2s;
+}
+#menubar ul li a:hover{
+    color: #ff3838;
+    text-decoration: underline;
+     text-underline-offset: 5px;
+     text-decoration-color: #ff3838;
+}
+ /* poster */
+ #poster{
+     background-image: url(../image/pics_img_1.jpg);
+     height: 500px;
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     color: #fff;
+ }
+ #poster h1{
+     font-size: 50px;
+      padding: 20px 0;
+ }
+ #poster p{
+    font-size: 18px;
+    text-align: center;
+}
+
+/* why us */
+ #whysection{
+     overflow: auto;
+ }
+ .red-heading{
+     color: #0984e3;
+     text-align: center;
+     font-size: 35px;
+     margin: 50px 0;
+     text-decoration: underline;
+     text-underline-offset: 10px;
+     text-decoration-color: #ff3838;
+ }
+ .section33{
+     width: 27%;
+     float: left; 
+     text-align: center;
+     margin-bottom: 50px;
+     margin-right: 60px; 
+     
+ }
+ .section33 h2{
+     color: #0984e3;
+     padding: 20px 0;
+ }
+ .section33 p{
+    color: #363636;
+    text-align: justify;
+}
+ .section,.one,.two,.three{
+     width: 33.33%;
+
+ }
+/* contact us */
+
+#contact-container{
+    background-color: #0984e3;
+    color: #fff;
+    overflow: auto;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+.section70{
+    width: 70%;
+    float: left;  
+}
+.section70 h1{
+    padding-bottom: 15px;
+}
+.section30{
+    width: 30%;
+    float: left; 
+    text-align: center;
+    padding-top: 40px;
+}
+#contact-btn{
+    background-color: #fff;
+    color: #0984e3;
+    padding: 8px 35px;
+    text-decoration: none;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: bold;
+}
+/* blog section*/
+#blogsection{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+ }
+ .sectionBlog33{
+     margin-right: 60px;
+    
+ }
+ .ones, .twos, .threes{
+     max-width: 100%;  
+ }
+.readmore{
+    text-decoration: none;
+    padding: 5px 10px;
+    color: #0984e3;
+    display: inline-block;
+    margin: 20px 0;
+    border-radius: 5px;
+}
+
+/* subscribe news letters */
+#subscribe-section{
+    background-color: #0984e3;
+    color: #fff;
+    overflow: auto;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.section50{
+    display: inline-block;
+}
+.sections50{
+    width: 50%;
+    float: right;
+}
+.sections50 [type="text"]{
+    padding: 8px 40px;
+    border: none;
+}
+.sections50 [type="submit"]{
+   padding: 7px;
+   margin-left: 40px;
+   border: none;
+}
+
+/* footer  */
+#imp-link{
+    background-color: #576574;
+    color: #fff;
+    overflow: auto;
+}
+.div33{
+    width: 33.33%;
+    float: left;
+    padding: 25px 50px 25px 0;
+}
+.div33 h3{
+    text-decoration: underline;
+    text-underline-offset: 6px;
+    text-decoration-thickness: 2px;
+    margin-bottom: 15px;
+}
+#footer-menu li {
+    list-style: none;
+    padding-bottom: 10px;
+
+}
+#footer-menu li a{
+    color: #fff;
+    text-decoration: none;
+}
+.secondmenu{
+    padding-left: 100px;
+}
+#copy-right{
+    background: #222f3e;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+ /* p tag ka apna khud ka by default margin hota hai esliye esse 0 kiya  */
+#copy-right p{
+    margin: 0;
+}
+
+
+
+/*Responsiveness Media Query  */
+@media only screen and (max-width: 1024px){
+    .section33{
+        margin-right: 40px;
+    }
+}
+
+#menubar ul #mobile-cross, #mobile-bar{
+    display: none;
+}
+
+@media only screen and (max-width:992px){
+    #menubar ul li {
+        font-size: 18px;
+        padding-right: 30px;
+    }
+    .sections50 [type="text"] {
+        padding: 8px 30px;
+    }
+    .sections50 [type="submit"] {
+        margin-left: 18px;
+    }
+}
+
+
+@media only screen and (min-width: 501px) and (max-width:772px){
+    #menubar ul li {
+         font-size: 15px;
+        padding-right: 15px; 
+    }
+
+    .section33{
+        margin-right: 40px;
+    }
+    .sections50 [type="text"]{
+        padding: 8px 6px;
+        margin-left: 10px;
+    }
+    .sections50 [type="submit"]{
+        margin-left: 15px;
+    }
+    .section33 {
+        margin-right: 27px;
+    }
+    .section70 {
+        width: 100%; 
+    }
+    .section30 {
+        width: 100%;
+    }
+    .sections50 {
+        width: 100%;
+        padding-top: 20px;
+    }
+    .sections50 [type="text"] {
+        margin-left: 0;
+    }
+    .secondmenu {
+        padding-left: 20px;
+    }
+ }
+
+
+@media only screen and (max-width: 500px){
+    #menubar {
+        position: absolute;
+        top: 0;
+        height: 100vh;
+        width: 280px;
+        padding: 0;
+    }
+    #menubar ul{
+        padding-top: 20px;
+    }
+    #menubar ul li {
+        display: block;
+      
+    }
+    ul li {
+        text-align: center;
+    
+    }
+    #menubar ul li a{
+        font-size: 20px;
+        font-weight: bold;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+    }
+
+    #mobile-cross{
+        text-align: right;
+    }
+    .fa-times-circle{
+        font-size: 30px;
+    }
+    #menubar{
+        left: -280px;
+        transition: all 0.5s ease;
+    }
+    #mobile-bar{
+        background-color: #0984e3;
+        color: #fff;
+        padding: 18px;
+        font-size: 28px;
+    }
+
+
+    #menubar ul #mobile-cross, #mobile-bar{
+        display: block;
+    }
+
+    /* ****************** */
+
+    #subscribe-section{
+        margin-top: 20px;
+    } 
+    #logobar{
+        text-align: center;
+    }
+    #poster h1 {
+        font-size: 35px;
+    }
+    .section33{
+        width: 100%;
+    }
+    .section30{
+        width: 100%;
+    }
+    
+    .section70{
+        text-align: center;
+        margin-left: 50px;
+    }
+    .red-heading{
+        margin: 35px 0;
+    }
+    #blogsection{
+       display: flex;
+       flex-direction: column;
+       margin-bottom: 10px;
+    }
+    .ones,.twos,.threes{
+        padding-bottom: 10px;
+    }
+     .sections50{
+         width: 100%;
+         padding-top: 20px;
+     }
+     .sections50 [type="text"]{
+         padding: 8px;
+     }
+     .sections50 [type="submit"]{
+        padding: 8px;
+        margin-left: 10px;
+    }
+    .div33{
+        width: 100%;
+        padding-left: 60px;
+        text-align: center;
+    } 
+    .sectionBlog33 {
+        margin-right: 0px;
+    }
+
+}
+      
+    
